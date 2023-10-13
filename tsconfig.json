@@ -1,11 +1,23 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
     "target": "es6",
-    "lib": ["es6"],
-    "strict": true,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./node_modules/@figma"
-    ]
-  }
+    "lib": ["dom", "esnext", "es6"],
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
