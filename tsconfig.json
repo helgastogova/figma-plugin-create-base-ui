@@ -15,8 +15,8 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true
-    // "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+    "allowSyntheticDefaultImports": true,
+    "types": ["@figma/plugin-typings"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
