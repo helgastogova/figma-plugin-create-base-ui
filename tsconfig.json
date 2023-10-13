@@ -2,8 +2,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "module": "esnext",
-    "target": "es6",
-    "lib": ["dom", "esnext", "es6"],
+    "target": "es2015",
+    "lib": ["dom", "esnext"],
     "moduleResolution": "node",
     "jsx": "react",
     "sourceMap": true,
@@ -15,8 +15,8 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true,
-    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+    "allowSyntheticDefaultImports": true
+    // "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

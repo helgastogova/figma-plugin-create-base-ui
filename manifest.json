@@ -2,16 +2,14 @@
   "name": "generate-ui",
   "id": "1294746866779955277",
   "api": "1.0.0",
-  "main": "code.js",
+  "main": "dist/index.js",
   "capabilities": [],
   "enableProposedApi": false,
-  "editorType": [
-    "figma"
-  ],
+  "editorType": ["figma"],
   "ui": "ui.html",
   "networkAccess": {
-    "allowedDomains": [
-      "none"
-    ]
-  }
+    "allowedDomains": ["none"]
+  },
+  "containsWidget": true,
+  "widgetApi": "1.0.0"
 }

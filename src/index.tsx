@@ -1,11 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { Component } from './component';
 
-import s from './styles.module.css';
-
-type TestComponentProps = {
-  textText?: string;
-};
-
-export const TestComponent: React.FC<TestComponentProps> = ({ textText }) => {
-  return <div className={s.root}>{textText ?? 'Hello!'}</div>;
-};
+ReactDOM.render(<Component />, document.getElementById('react-page'));
